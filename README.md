@@ -2,7 +2,7 @@
 If needed, install the requirements file using a conda env.
 
 ## Model and Dataset Downloads
-You can download all necessary models and datasets via the links provided below (Links no longer active, model needs to be trained again):
+You can download all necessary models and datasets via the links provided below (Links no longer active, models needs to be retrained):
 
 - **Models**: [Download Models](https://drive.google.com/drive/folders/1hP9Q7bW9zBOvUIfMmZ-XrLuQhWhB2qqc?usp=sharing)
   - `model_1`: Trained for license plate detection.

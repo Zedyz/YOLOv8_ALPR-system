@@ -1,7 +1,8 @@
 ## Requirements
 If needed, install the requirements file using a conda env.
 
-## Model and Dataset Downloads (Links no longer active, model needs to be trained again)
+## Model and Dataset Downloads
+(Links no longer active, model needs to be trained again)
 You can download all necessary models and datasets via the links provided below:
 
 - **Models**: [Download Models](https://drive.google.com/drive/folders/1hP9Q7bW9zBOvUIfMmZ-XrLuQhWhB2qqc?usp=sharing)

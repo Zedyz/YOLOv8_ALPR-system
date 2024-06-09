@@ -1,0 +1,23 @@
+path: .
+
+train: train/images
+val: val/images
+test: test/images
+
+names: 
+  0: license-plate
+
+# Hyperparameters
+hyp:
+  hsv_h: 0.02  # Slightly increased for more color variation
+  hsv_s: 0.75  # Adjusted for more vibrant colors
+  hsv_v: 0.4   # Kept as is
+  degrees: 5.0  # Introduced small rotations
+  translate: 0.15  # Slightly increased for more positional variance
+  scale: 0.5  # Kept as is, consider the impact on your specific dataset_tools
+  shear: 5.0  # Introduced shearing for geometric variability
+  perspective: 0.001  # Introduced slight perspective changes
+  flipud: 0.2  # Enabled up-down flipping with a moderate probability
+  fliplr: 0.5  # Kept as is
+  mosaic: run1.0  # Fully enabled for robustness to object scale and placement
+  mixup: 0.2  # Introduced mixup for better generalization
